@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // create a fragment and all the fragment initializations.
+
         FirstClockFragment firstClockFragment = new FirstClockFragment();
         FragmentManager fragmentManager = getSupportFragmentManager();
 
