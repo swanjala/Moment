@@ -1,6 +1,5 @@
 package com.example.sam.moment.fragments;
 
-import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,9 +9,6 @@ import android.widget.ImageView;
 import com.example.sam.moment.R;
 
 public class FirstClockFragment extends android.support.v4.app.Fragment {
-    // extension how android knows how to implement the class
-
-    // constructor
     public FirstClockFragment(){}
 
     @Override
@@ -24,6 +20,7 @@ public class FirstClockFragment extends android.support.v4.app.Fragment {
 
         ImageView imageView = rootView.findViewById(R.id.firstClock);
         imageView.setImageResource(R.mipmap.timer_primary);
+
         return rootView;
 
     }
